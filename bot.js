@@ -53,33 +53,23 @@ client2.on('message', message => {
 
 
 
-client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
+client.on('ready', async() => {
+var server = "512693975363223573"; 
+var channel = "515857873419501571";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , 
+Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , m')
+    },305);
+})
+client.on('ready', async() => {
+var server = "512693975363223573"; 
+var channel = "515857873419501571";
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , 
+Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
+    },305);
+})
 
-client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
-      let count = 0;
-      let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
-          .then(m => {
-            count++;
-          })
-          
-        }
-      }
-});
 
 
 
